@@ -1,0 +1,48 @@
+.contacts-page-body {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    margin: 0;
+    overflow: hidden;
+}
+
+#image-track > .image,
+#image-track a img {
+    width: 40vmin;
+    height: 56vmin;
+    object-fit: cover;
+    object-position: 100% 50%;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* Add glow effect */
+    transition: box-shadow 0.8s ease; /* Smooth transition for hover effect */
+}
+
+/* Ensure the image is displayed consistently inside the anchor */
+#image-track a {
+    display: inline-block;
+    width: 40vmin;
+    height: 56vmin;
+}
+
+#image-track a img {
+    width: 100%; /* Image takes up the full width of the anchor */
+    height: 100%; /* Image takes up the full height of the anchor */
+    object-fit: cover; /* Ensures the image maintains aspect ratio */
+    object-position: center; /* Center the image within the anchor */
+}
+
+#image-track {
+    display: flex;
+    gap: 4vmin;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%); /* Center the track horizontally and vertically */
+    white-space: nowrap; /* Ensure the images stay in one line without wrapping */
+    overflow: hidden;
+    pointer-events: all;
+}
+
+#image-track > .image:hover,
+#image-track a img:hover {
+    box-shadow: 0 0 40px rgba(255, 255, 255, 1); /* Stronger glow on hover */
+}

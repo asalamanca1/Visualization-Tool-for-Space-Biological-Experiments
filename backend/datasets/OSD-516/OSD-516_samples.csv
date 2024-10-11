@@ -1,0 +1,78 @@
+﻿Source Name,Sample Name,Characteristics: Organism,Characteristics: cell type,Characteristics: Material Type,Factor Value: Sex,Factor Value: Spaceflight,Factor Value: Treatment,Characteristics: Study Subject,Protocol REF,Protocol REF,Parameter Value: Treatment duration,Parameter Value: duration,Protocol REF,Parameter Value: Sample Preservation Method
+1,367402,Homo sapiens,kidney proximal tubule epithelial cell,primary cell,Male,Ground Control,Vitamin D,M1,growth protocol,treatment protocol,2 day,8 day,sample collection,RNALater
+2,367403,Homo sapiens,kidney proximal tubule epithelial cell,primary cell,Male,Ground Control,Vitamin D,M1,growth protocol,treatment protocol,2 day,8 day,sample collection,RNALater
+3,367404,Homo sapiens,kidney proximal tubule epithelial cell,primary cell,Male,Ground Control,Vitamin D,M1,growth protocol,treatment protocol,2 day,8 day,sample collection,RNALater
+4,367405,Homo sapiens,kidney proximal tubule epithelial cell,primary cell,Female,Ground Control,Vitamin D,F1,growth protocol,treatment protocol,2 day,8 day,sample collection,RNALater
+5,367406,Homo sapiens,kidney proximal tubule epithelial cell,primary cell,Female,Ground Control,Vitamin D,F1,growth protocol,treatment protocol,2 day,8 day,sample collection,RNALater
+6,367407,Homo sapiens,kidney proximal tubule epithelial cell,primary cell,Female,Ground Control,Vitamin D,F1,growth protocol,treatment protocol,2 day,8 day,sample collection,RNALater
+7,367408,Homo sapiens,kidney proximal tubule epithelial cell,primary cell,Male,Ground Control,Vitamin D,M2,growth protocol,treatment protocol,2 day,8 day,sample collection,RNALater
+8,367409,Homo sapiens,kidney proximal tubule epithelial cell,primary cell,Male,Ground Control,Vitamin D,M2,growth protocol,treatment protocol,2 day,8 day,sample collection,RNALater
+9,367410,Homo sapiens,kidney proximal tubule epithelial cell,primary cell,Male,Ground Control,Vitamin D,M2,growth protocol,treatment protocol,2 day,8 day,sample collection,RNALater
+10,367411,Homo sapiens,kidney proximal tubule epithelial cell,primary cell,Male,Ground Control,2% human serum,M1,growth protocol,treatment protocol,2 day,8 day,sample collection,RNALater
+11,367412,Homo sapiens,kidney proximal tubule epithelial cell,primary cell,Male,Ground Control,2% human serum,M1,growth protocol,treatment protocol,2 day,8 day,sample collection,RNALater
+12,367413,Homo sapiens,kidney proximal tubule epithelial cell,primary cell,Female,Ground Control,2% human serum,F1,growth protocol,treatment protocol,2 day,8 day,sample collection,RNALater
+13,367414,Homo sapiens,kidney proximal tubule epithelial cell,primary cell,Female,Ground Control,2% human serum,F1,growth protocol,treatment protocol,2 day,8 day,sample collection,RNALater
+14,367415,Homo sapiens,kidney proximal tubule epithelial cell,primary cell,Female,Ground Control,2% human serum,F1,growth protocol,treatment protocol,2 day,8 day,sample collection,RNALater
+15,367416,Homo sapiens,kidney proximal tubule epithelial cell,primary cell,Male,Ground Control,2% human serum,M2,growth protocol,treatment protocol,2 day,8 day,sample collection,RNALater
+17,367417,Homo sapiens,kidney proximal tubule epithelial cell,primary cell,Male,Ground Control,2% human serum,M2,growth protocol,treatment protocol,2 day,8 day,sample collection,RNALater
+18,367418,Homo sapiens,kidney proximal tubule epithelial cell,primary cell,Male,Ground Control,media,M1,growth protocol,treatment protocol,2 day,8 day,sample collection,RNALater
+19,367419,Homo sapiens,kidney proximal tubule epithelial cell,primary cell,Male,Ground Control,media,M1,growth protocol,treatment protocol,2 day,8 day,sample collection,RNALater
+21,367420,Homo sapiens,kidney proximal tubule epithelial cell,primary cell,Female,Ground Control,media,F1,growth protocol,treatment protocol,2 day,8 day,sample collection,RNALater
+22,367421,Homo sapiens,kidney proximal tubule epithelial cell,primary cell,Female,Ground Control,media,F1,growth protocol,treatment protocol,2 day,8 day,sample collection,RNALater
+23,367422,Homo sapiens,kidney proximal tubule epithelial cell,primary cell,Female,Ground Control,media,F1,growth protocol,treatment protocol,2 day,8 day,sample collection,RNALater
+24,367423,Homo sapiens,kidney proximal tubule epithelial cell,primary cell,Female,Ground Control,media,F2,growth protocol,treatment protocol,2 day,8 day,sample collection,RNALater
+25,367424,Homo sapiens,kidney proximal tubule epithelial cell,primary cell,Female,Ground Control,media,F2,growth protocol,treatment protocol,2 day,8 day,sample collection,RNALater
+26,367425,Homo sapiens,kidney proximal tubule epithelial cell,primary cell,Female,Ground Control,media,F2,growth protocol,treatment protocol,2 day,8 day,sample collection,RNALater
+27,367426,Homo sapiens,kidney proximal tubule epithelial cell,primary cell,Male,Ground Control,Vitamin D,M1,growth protocol,treatment protocol,2 day,8 day,sample collection,RNALater
+28,367427,Homo sapiens,kidney proximal tubule epithelial cell,primary cell,Male,Ground Control,Vitamin D,M1,growth protocol,treatment protocol,2 day,8 day,sample collection,RNALater
+29,367428,Homo sapiens,kidney proximal tubule epithelial cell,primary cell,Male,Ground Control,Vitamin D,M1,growth protocol,treatment protocol,2 day,8 day,sample collection,RNALater
+30,367429,Homo sapiens,kidney proximal tubule epithelial cell,primary cell,Female,Ground Control,Vitamin D,F1,growth protocol,treatment protocol,2 day,8 day,sample collection,RNALater
+31,367430,Homo sapiens,kidney proximal tubule epithelial cell,primary cell,Female,Ground Control,Vitamin D,F1,growth protocol,treatment protocol,2 day,8 day,sample collection,RNALater
+32,367431,Homo sapiens,kidney proximal tubule epithelial cell,primary cell,Female,Ground Control,Vitamin D,F1,growth protocol,treatment protocol,2 day,8 day,sample collection,RNALater
+33,367432,Homo sapiens,kidney proximal tubule epithelial cell,primary cell,Female,Ground Control,Vitamin D,F2,growth protocol,treatment protocol,2 day,8 day,sample collection,RNALater
+34,367433,Homo sapiens,kidney proximal tubule epithelial cell,primary cell,Female,Ground Control,Vitamin D,F2,growth protocol,treatment protocol,2 day,8 day,sample collection,RNALater
+35,367434,Homo sapiens,kidney proximal tubule epithelial cell,primary cell,Male,Ground Control,2% human serum,M1,growth protocol,treatment protocol,2 day,8 day,sample collection,RNALater
+36,367435,Homo sapiens,kidney proximal tubule epithelial cell,primary cell,Male,Ground Control,2% human serum,M1,growth protocol,treatment protocol,2 day,8 day,sample collection,RNALater
+37,367436,Homo sapiens,kidney proximal tubule epithelial cell,primary cell,Male,Ground Control,2% human serum,M1,growth protocol,treatment protocol,2 day,8 day,sample collection,RNALater
+38,367437,Homo sapiens,kidney proximal tubule epithelial cell,primary cell,Female,Ground Control,2% human serum,F1,growth protocol,treatment protocol,2 day,8 day,sample collection,RNALater
+39,367438,Homo sapiens,kidney proximal tubule epithelial cell,primary cell,Female,Ground Control,2% human serum,F1,growth protocol,treatment protocol,2 day,8 day,sample collection,RNALater
+40,367439,Homo sapiens,kidney proximal tubule epithelial cell,primary cell,Female,Ground Control,2% human serum,F1,growth protocol,treatment protocol,2 day,8 day,sample collection,RNALater
+41,367440,Homo sapiens,kidney proximal tubule epithelial cell,primary cell,Female,Ground Control,2% human serum,F2,growth protocol,treatment protocol,2 day,8 day,sample collection,RNALater
+42,367441,Homo sapiens,kidney proximal tubule epithelial cell,primary cell,Female,Ground Control,2% human serum,F2,growth protocol,treatment protocol,2 day,8 day,sample collection,RNALater
+43,367442,Homo sapiens,kidney proximal tubule epithelial cell,primary cell,Female,Ground Control,2% human serum,F2,growth protocol,treatment protocol,2 day,8 day,sample collection,RNALater
+44,367443,Homo sapiens,kidney proximal tubule epithelial cell,primary cell,Male,Space Flight,media,M1,growth protocol,treatment protocol,2 day,8 day,sample collection,RNALater
+45,367444,Homo sapiens,kidney proximal tubule epithelial cell,primary cell,Male,Space Flight,media,M1,growth protocol,treatment protocol,2 day,8 day,sample collection,RNALater
+46,367445,Homo sapiens,kidney proximal tubule epithelial cell,primary cell,Female,Space Flight,media,F1,growth protocol,treatment protocol,2 day,8 day,sample collection,RNALater
+47,367446,Homo sapiens,kidney proximal tubule epithelial cell,primary cell,Female,Space Flight,media,F1,growth protocol,treatment protocol,2 day,8 day,sample collection,RNALater
+48,367447,Homo sapiens,kidney proximal tubule epithelial cell,primary cell,Male,Space Flight,media,M2,growth protocol,treatment protocol,2 day,8 day,sample collection,RNALater
+49,367448,Homo sapiens,kidney proximal tubule epithelial cell,primary cell,Male,Space Flight,media,M2,growth protocol,treatment protocol,2 day,8 day,sample collection,RNALater
+50,367449,Homo sapiens,kidney proximal tubule epithelial cell,primary cell,Male,Space Flight,media,M2,growth protocol,treatment protocol,2 day,8 day,sample collection,RNALater
+51,367450,Homo sapiens,kidney proximal tubule epithelial cell,primary cell,Male,Space Flight,Vitamin D,M1,growth protocol,treatment protocol,2 day,8 day,sample collection,RNALater
+52,367451,Homo sapiens,kidney proximal tubule epithelial cell,primary cell,Male,Space Flight,Vitamin D,M1,growth protocol,treatment protocol,2 day,8 day,sample collection,RNALater
+53,367452,Homo sapiens,kidney proximal tubule epithelial cell,primary cell,Female,Space Flight,Vitamin D,F1,growth protocol,treatment protocol,2 day,8 day,sample collection,RNALater
+54,367453,Homo sapiens,kidney proximal tubule epithelial cell,primary cell,Female,Space Flight,Vitamin D,F1,growth protocol,treatment protocol,2 day,8 day,sample collection,RNALater
+56,367454,Homo sapiens,kidney proximal tubule epithelial cell,primary cell,Male,Space Flight,2% human serum,M1,growth protocol,treatment protocol,2 day,8 day,sample collection,RNALater
+57,367455,Homo sapiens,kidney proximal tubule epithelial cell,primary cell,Male,Space Flight,2% human serum,M1,growth protocol,treatment protocol,2 day,8 day,sample collection,RNALater
+58,367456,Homo sapiens,kidney proximal tubule epithelial cell,primary cell,Male,Space Flight,2% human serum,M1,growth protocol,treatment protocol,2 day,8 day,sample collection,RNALater
+59,367457,Homo sapiens,kidney proximal tubule epithelial cell,primary cell,Female,Space Flight,2% human serum,F1,growth protocol,treatment protocol,2 day,8 day,sample collection,RNALater
+60,367458,Homo sapiens,kidney proximal tubule epithelial cell,primary cell,Female,Space Flight,2% human serum,F1,growth protocol,treatment protocol,2 day,8 day,sample collection,RNALater
+61,367459,Homo sapiens,kidney proximal tubule epithelial cell,primary cell,Female,Space Flight,2% human serum,F1,growth protocol,treatment protocol,2 day,8 day,sample collection,RNALater
+62,367460,Homo sapiens,kidney proximal tubule epithelial cell,primary cell,Male,Space Flight,2% human serum,M2,growth protocol,treatment protocol,2 day,8 day,sample collection,RNALater
+63,367461,Homo sapiens,kidney proximal tubule epithelial cell,primary cell,Male,Space Flight,2% human serum,M2,growth protocol,treatment protocol,2 day,8 day,sample collection,RNALater
+64,367462,Homo sapiens,kidney proximal tubule epithelial cell,primary cell,Male,Space Flight,media,M1,growth protocol,treatment protocol,2 day,8 day,sample collection,RNALater
+65,367463,Homo sapiens,kidney proximal tubule epithelial cell,primary cell,Female,Space Flight,media,F1,growth protocol,treatment protocol,2 day,8 day,sample collection,RNALater
+66,367464,Homo sapiens,kidney proximal tubule epithelial cell,primary cell,Female,Space Flight,Vitamin D,F1,growth protocol,treatment protocol,2 day,8 day,sample collection,RNALater
+67,367465,Homo sapiens,kidney proximal tubule epithelial cell,primary cell,Male,Space Flight,Vitamin D,M1,growth protocol,treatment protocol,2 day,8 day,sample collection,RNALater
+68,367466,Homo sapiens,kidney proximal tubule epithelial cell,primary cell,Male,Space Flight,Vitamin D,M1,growth protocol,treatment protocol,2 day,8 day,sample collection,RNALater
+69,367467,Homo sapiens,kidney proximal tubule epithelial cell,primary cell,Male,Space Flight,Vitamin D,M1,growth protocol,treatment protocol,2 day,8 day,sample collection,RNALater
+70,367468,Homo sapiens,kidney proximal tubule epithelial cell,primary cell,Female,Space Flight,Vitamin D,F2,growth protocol,treatment protocol,2 day,8 day,sample collection,RNALater
+71,367469,Homo sapiens,kidney proximal tubule epithelial cell,primary cell,Female,Space Flight,Vitamin D,F2,growth protocol,treatment protocol,2 day,8 day,sample collection,RNALater
+72,367470,Homo sapiens,kidney proximal tubule epithelial cell,primary cell,Female,Space Flight,Vitamin D,F2,growth protocol,treatment protocol,2 day,8 day,sample collection,RNALater
+73,367471,Homo sapiens,kidney proximal tubule epithelial cell,primary cell,Male,Space Flight,2% human serum,M1,growth protocol,treatment protocol,2 day,8 day,sample collection,RNALater
+74,367472,Homo sapiens,kidney proximal tubule epithelial cell,primary cell,Male,Space Flight,2% human serum,M1,growth protocol,treatment protocol,2 day,8 day,sample collection,RNALater
+75,367473,Homo sapiens,kidney proximal tubule epithelial cell,primary cell,Male,Space Flight,2% human serum,M1,growth protocol,treatment protocol,2 day,8 day,sample collection,RNALater
+76,367474,Homo sapiens,kidney proximal tubule epithelial cell,primary cell,Female,Space Flight,2% human serum,F1,growth protocol,treatment protocol,2 day,8 day,sample collection,RNALater
+77,367475,Homo sapiens,kidney proximal tubule epithelial cell,primary cell,Female,Space Flight,2% human serum,F1,growth protocol,treatment protocol,2 day,8 day,sample collection,RNALater
+78,367476,Homo sapiens,kidney proximal tubule epithelial cell,primary cell,Female,Space Flight,2% human serum,F1,growth protocol,treatment protocol,2 day,8 day,sample collection,RNALater
+79,367477,Homo sapiens,kidney proximal tubule epithelial cell,primary cell,Male,Space Flight,2% human serum,M2,growth protocol,treatment protocol,2 day,8 day,sample collection,RNALater
+80,367478,Homo sapiens,kidney proximal tubule epithelial cell,primary cell,Male,Space Flight,2% human serum,M2,growth protocol,treatment protocol,2 day,8 day,sample collection,RNALater

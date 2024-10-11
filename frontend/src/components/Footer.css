@@ -1,0 +1,52 @@
+.footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    flex: 0 0 auto;
+		/* styling */
+	  padding: 1rem;
+  }
+
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1500px;
+    padding: 0;
+  }
+  
+  .footer-item {
+    display: flex;
+    align-items: flex-start;
+    padding: 0 20px;
+  }
+  
+  .footer-links {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 100;
+    padding: 30px;
+
+  }
+  
+  .footer-item:hover .footer-links {
+    color: #ddd;
+  }
+
+  #wrap {
+    display: flex;
+		flex-direction: column;
+		min-height: 100%
+  }
+.main {
+    flex: 1 0 auto;
+		/* styling */
+		padding: 3rem;
+		border: 2px solid #eee;
+  }
+
+.iav-logo{
+    height: 100px;
+    border-radius: 50%;
+  }
+  

@@ -1,0 +1,45 @@
+video{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index:-1;
+}
+
+.hero-container{
+    /*background: url('images/nasamoon.jpg') center center/cover
+    no-repeat;*/
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position:relative;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.2);
+    object-fit: contain;
+}
+
+.hero-container .content {
+    z-index: 1; /* Ensure the content is above the video */
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    z-index: 2; /* Keep container content on top of video and background */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+
+input, button {
+    padding: 10px;
+    margin: 10px 0;
+}

@@ -1,0 +1,25 @@
+﻿Source Name,Sample Name,Characteristics: Organism,Characteristics: Sex,Factor Value: Spaceflight,Factor Value: Time,Characteristics: Material Type,Protocol REF,Protocol REF,Comment: Comment
+C001,C001_PBMC_L-92,Homo sapiens,Male,pre-flight,Launch minus 92 day,Peripheral Blood Mononuclear Cell,Treatment protocol,sample collection,Samples were processed immediately after collection
+C001,C001_PBMC_L-44,Homo sapiens,Male,pre-flight,Launch minus 44 day,Peripheral Blood Mononuclear Cell,Treatment protocol,sample collection,Samples were processed immediately after collection
+C001,C001_PBMC_L-3,Homo sapiens,Male,pre-flight,Launch minus 3 day,Peripheral Blood Mononuclear Cell,Treatment protocol,sample collection,Samples were processed immediately after collection
+C001,C001_PBMC_R+1,Homo sapiens,Male,post-flight,Return plus 1 day,Peripheral Blood Mononuclear Cell,Treatment protocol,sample collection,Samples were processed immediately after collection
+C001,C001_PBMC_R+45,Homo sapiens,Male,post-flight,Return plus 45 day,Peripheral Blood Mononuclear Cell,Treatment protocol,sample collection,Samples were processed immediately after collection
+C001,C001_PBMC_R+82,Homo sapiens,Male,post-flight,Return plus 82 day,Peripheral Blood Mononuclear Cell,Treatment protocol,sample collection,Samples were processed immediately after collection
+C002,C002_PBMC_L-92,Homo sapiens,Female,pre-flight,Launch minus 92 day,Peripheral Blood Mononuclear Cell,Treatment protocol,sample collection,Samples were processed immediately after collection
+C002,C002_PBMC_L-44,Homo sapiens,Female,pre-flight,Launch minus 44 day,Peripheral Blood Mononuclear Cell,Treatment protocol,sample collection,Samples were processed immediately after collection
+C002,C002_PBMC_L-3,Homo sapiens,Female,pre-flight,Launch minus 3 day,Peripheral Blood Mononuclear Cell,Treatment protocol,sample collection,Samples were processed immediately after collection
+C002,C002_PBMC_R+1,Homo sapiens,Female,post-flight,Return plus 1 day,Peripheral Blood Mononuclear Cell,Treatment protocol,sample collection,Samples were processed immediately after collection
+C002,C002_PBMC_R+45,Homo sapiens,Female,post-flight,Return plus 45 day,Peripheral Blood Mononuclear Cell,Treatment protocol,sample collection,Samples were processed immediately after collection
+C002,C002_PBMC_R+82,Homo sapiens,Female,post-flight,Return plus 82 day,Peripheral Blood Mononuclear Cell,Treatment protocol,sample collection,Samples were processed immediately after collection
+C003,C003_PBMC_L-92,Homo sapiens,Female,pre-flight,Launch minus 92 day,Peripheral Blood Mononuclear Cell,Treatment protocol,sample collection,Samples were processed immediately after collection
+C003,C003_PBMC_L-44,Homo sapiens,Female,pre-flight,Launch minus 44 day,Peripheral Blood Mononuclear Cell,Treatment protocol,sample collection,Samples were processed immediately after collection
+C003,C003_PBMC_L-3,Homo sapiens,Female,pre-flight,Launch minus 3 day,Peripheral Blood Mononuclear Cell,Treatment protocol,sample collection,Samples were processed immediately after collection
+C003,C003_PBMC_R+1,Homo sapiens,Female,post-flight,Return plus 1 day,Peripheral Blood Mononuclear Cell,Treatment protocol,sample collection,Samples were processed immediately after collection
+C003,C003_PBMC_R+45,Homo sapiens,Female,post-flight,Return plus 45 day,Peripheral Blood Mononuclear Cell,Treatment protocol,sample collection,Samples were processed immediately after collection
+C003,C003_PBMC_R+82,Homo sapiens,Female,post-flight,Return plus 82 day,Peripheral Blood Mononuclear Cell,Treatment protocol,sample collection,Samples were processed immediately after collection
+C004,C004_PBMC_L-92,Homo sapiens,Male,pre-flight,Launch minus 92 day,Peripheral Blood Mononuclear Cell,Treatment protocol,sample collection,Samples were processed immediately after collection
+C004,C004_PBMC_L-44,Homo sapiens,Male,pre-flight,Launch minus 44 day,Peripheral Blood Mononuclear Cell,Treatment protocol,sample collection,Samples were processed immediately after collection
+C004,C004_PBMC_L-3,Homo sapiens,Male,pre-flight,Launch minus 3 day,Peripheral Blood Mononuclear Cell,Treatment protocol,sample collection,Samples were processed immediately after collection
+C004,C004_PBMC_R+1,Homo sapiens,Male,post-flight,Return plus 1 day,Peripheral Blood Mononuclear Cell,Treatment protocol,sample collection,Samples were processed immediately after collection
+C004,C004_PBMC_R+45,Homo sapiens,Male,post-flight,Return plus 45 day,Peripheral Blood Mononuclear Cell,Treatment protocol,sample collection,Samples were processed immediately after collection
+C004,C004_PBMC_R+82,Homo sapiens,Male,post-flight,Return plus 82 day,Peripheral Blood Mononuclear Cell,Treatment protocol,sample collection,Samples were processed immediately after collection

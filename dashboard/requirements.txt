@@ -1,0 +1,17 @@
+playwright
+Flask
+flask-cors
+Flask_SQLAlchemy
+requests
+npm
+node
+npx
+dash 
+dash-bootstrap-components
+pandas
+plotly
+networkx
+matplotlib
+numpy
+comtradeapicall
+pygraphviz

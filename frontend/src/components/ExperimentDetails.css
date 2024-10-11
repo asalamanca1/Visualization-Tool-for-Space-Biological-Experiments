@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@300;500&display=swap');
+
+:root {
+  --bg-color: rgb(20, 20, 20);
+  --light-color: rgba(255, 255, 255, 0.15);
+}
+
+body {
+  background-image: linear-gradient(to bottom, #04142c, #083343, #2d5153, #596f64, #888d7e);
+  font-family: 'Raleway', sans-serif;
+  padding: 0;
+  margin: 0;
+  color: #393838;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+
+  
+/* Hover light effect */
+.card-title, .card-description, .card-sidebar {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.card-title::before, .card-description::before, .card-sidebar::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 200px;
+  background-color: var(--light-color);
+  border-radius: 50%;
+  transform: scale(0);
+  transition: transform 0.4s ease-out;
+  pointer-events: none;
+}
+
+.card-title:hover::before, .card-description:hover::before, .card-sidebar:hover::before {
+  transform: scale(3);
+}
+
+/* Container for the entire experiment page */
+.experiment-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: space-between;
+}
+
+/* Sidebar and dashboard section alignment */
+.bottom-section {
+  display: flex;
+  margin-top: 40px;
+  width: 100%;
+  gap: 20px; 
+  align-items: flex-start;
+  justify-content: center;
+  flex-grow: 1; /* Allows the bottom section to expand */
+}
+
+/* Sidebar styling */
+.sidebar {
+  width: 300px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 8px 100px rgba(0, 0, 0, 0.1) !important;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  flex-shrink: 0;
+  margin-bottom: 60px;
+}
+
+.sidebar:hover {
+  transform: translateY(-5px); /* Creates a "lift" effect on hover */
+  box-shadow: 0 12px 100px rgba(0, 0, 0, 0.15);
+}
+
+/* Sidebar header */
+.sidebar h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+/* Buttons inside the sidebar */
+.sidebar-button {
+  background-color: #0089ba;
+  color: white;
+  border: none;
+  padding: 12px 16px;
+  margin-bottom: 10px;
+  width: 100%;
+  text-align: center;
+  font-size: 1rem;
+  font-family: 'Montserrat';
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.5s ease, box-shadow 0.5s ease;
+}
+
+.sidebar-button:hover {
+  background-color: #1667d1;
+  box-shadow: 0 8px 16px rgba(0, 91, 187, 0.3);
+}
+
+/* The dashboard content section */
+.dashboard-content {
+  background-color: #f9f7f7;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 8px 200px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 900px; /* Limited the plot width for side-by-side alignment */
+  height: 657px; /* Fixed height for a more compact display */
+  overflow: auto;
+}
+
+.dashboard-content:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 240px rgba(0, 0, 0, 0.15);
+}
+
+/* Tooltip for Wikipedia link */
+.wiki-tooltip {
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-size: 0.85rem;
+  font-family: 'Raleway', sans-serif;
+  box-shadow: 0 4px 120px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.wiki-tooltip a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.wiki-tooltip a:hover {
+  text-decoration: underline;
+}
+
+/* Headings for the experiment details */
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 2.5rem;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  color: #f76353;
+  text-align: center;
+}
+
+/* Paragraph for the experiment description */
+p {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #fff;
+  max-width: 800px;
+  margin: 20px 0;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 15px;
+}
+/* Popup.css */
+
+/* Add the following styles for the table inside the popup */
+.popup-container table {
+  width: 100%;
+  border-collapse: collapse;
+  color: white; /* Set the table text color to white */
+}
+
+.popup-container th, .popup-container td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  color: white; /* Ensures table header and data text is white */
+}
+
+.popup-container th {
+  background-color: #444; /* Darker background for headers */
+  font-weight: bold;
+  color: white; /* White text for headers */
+}
+
+.popup-container td {
+  background-color: #333; /* Darker background for table cells */
+}
+
+/* Rest of the popup styles remain the same */
+.popup-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  height: 60%;
+  background-color: #333;
+  color: white;
+  z-index: 1000;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  overflow-y: auto;
+}
+
+.popup-title {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.popup-content {
+  font-size: 1.2rem;
+  padding: 10px;
+  color: white;
+}
+
+.popup-close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: transparent;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: white;
+}
+
+/* Style for positioning the chatbot in the bottom-right corner */
+.chatbot-container {
+  position: fixed;
+  align-self: flex-end;
+  bottom: 5px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  height: 500px; /* Adjust height if needed */
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2); /* Optional: Add shadow for better visibility */
+  border-radius: 8px; /* Optional: Add rounded corners */
+}
+
+.close-btn {
+  background: red;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+/* Chatbot Toggle Button */
+.chatbot-toggle-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 65px;
+  height: 65px;
+  background-color: transparent;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+.chatbot-toggle-button img {
+  width: 65px;
+  height: 65px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* Chatbot Container */
+.chatbot-container {
+  position: fixed;
+  bottom: 80px; /* Adjust based on button size */
+  right: 20px;
+  height: auto;
+  width: 300px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  background-color: white;
+  z-index: 1000; /* Ensure it's above other content */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Chatbot Header */
+.chatbot-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #2898ec;
+  color: white;
+  font-weight: bold;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+/* Minimize Button */
+.minimize-button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+
+/* Custom CSS for React Chatbot Kit */
+.react-chatbot-kit-chat-container {
+  width: 275px; /* Customize width */
+  border-radius: 15px !important; /* Add rounded edges */
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2); /* Add a shadow */
+  overflow: hidden; /* Ensure rounded corners clip content */
+}
+
+.react-chatbot-kit-chat-inner-container {
+  background-color: #f7f7f7 !important; /* Customize background */
+}
+
+.react-chatbot-kit-chat-input {
+  border-radius: 15px !important; /* Rounded input box */
+  padding: 10px !important;
+}
+
+/* Customize the message bubbles */
+.react-chatbot-kit-chat-message-container {
+  border-radius: 10px !important;
+  padding: 8px !important;
+  background-color: #e9eef0 !important; /* Customize bubble color */
+  color: white !important;
+}
+
+/* Customize the user message */
+.react-chatbot-kit-user-message {
+  background-color: #1667d1 !important;
+  border-radius: 10px !important;
+  color: white !important;
+}
+
+.react-chatbot-kit-chat-header {
+  border-top-right-radius: 5px !important;
+  border-top-left-radius: 5px !important;
+  background-color: #fff !important;
+  font-family: Arial !important;
+  font-weight: 300;
+  display: flex !important;
+  align-items: center !important;
+  font-size: 0.95rem !important;
+  color: #0c0909 !important;
+  padding: 12.5px !important;
+}
+
+.react-chatbot-kit-chat-bot-avatar-container {
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 50% !important;
+  margin-right: 12.5px !important;
+  background-color: #d8d8d8 !important;
+  background-image: url('../images/chatbot.gif') !important; /* Replace this with the actual path to your chatbot image */
+  background-size: cover !important;
+  background-position: center !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.react-chatbot-kit-chat-bot-avatar-letter {
+  color: transparent !important;
+  margin: 0;
+  padding: 0;
+}
+
+.react-chatbot-kit-chat-btn-send {
+  /* Your custom styles */
+  border-radius: 20px !important;
+}
+
+.react-chatbot-kit-user-chat-message {
+  background-color: #fff !important;
+  padding: 10px;
+  border-radius: 8px !important;
+  font-size: 0.9rem;
+  color: #585858;
+  font-weight: medium;
+  position: relative;
+  text-align: left;
+}
