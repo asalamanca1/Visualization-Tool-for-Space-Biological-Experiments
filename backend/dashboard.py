@@ -18,7 +18,7 @@ from openai import AzureOpenAI
 import openai
 import requests
 
-os.environ["AZURE_OPENAI_API_KEY"] = '98375ee658e14f8c9e97b085af12b564'
+os.environ["AZURE_OPENAI_API_KEY"] = ''
 os.environ["AZURE_OPENAI_ENDPOINT"] = 'https://iav-imagegen.openai.azure.com/openai/deployments/dall-e-3/images/generations?api-version=2024-02-01'
 
 def sanitize_filename(value):
