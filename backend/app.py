@@ -542,7 +542,7 @@ def get_context_retriever_chain(vector_store):
     bot = HuggingFaceEndpoint(
         repo_id="huggingfaceh4/zephyr-7b-alpha", 
         
-        huggingfacehub_api_token="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",  # Use your token here
+        huggingfacehub_api_token="",  # Use your token here
         task="text-generation"  # Specify the task if needed
     )
     
@@ -561,7 +561,7 @@ def get_conversational_rag_chain(retriever_chain):
      # Create an LLM instance first
     bot = HuggingFaceEndpoint(
         repo_id="huggingfaceh4/zephyr-7b-alpha",
-        huggingfacehub_api_token="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",  # Use your token here
+        huggingfacehub_api_token="",  # Use your token here
         task="text-generation"  # Specify the task if needed
     )
     
